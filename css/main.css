@@ -43,5 +43,5 @@ body{
     display: flex;
 }
 .nav__item:not(:last-child){
-    margin-right:30px ;
+    margin-right:25px ;
 }
