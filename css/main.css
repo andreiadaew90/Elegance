@@ -23,6 +23,7 @@ body{
     font-family: 'Noto Sans Display', sans-serif;
     font-size: 18px;
     line-height: 25px;
+    color: #000000;
 }
 .nav{
     padding: 40px 0;
@@ -34,4 +35,13 @@ body{
 .nav__row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.nav__item:not(:last-child){
+    margin-right:30px ;
 }
