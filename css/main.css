@@ -63,3 +63,22 @@ body{
     background-color: #E8E1D9;
     border-radius: 15px;
 }
+
+.nav__cart-link{
+   position: relative;
+    padding: 10px;
+}
+.nav__cart-number{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color:#F72464;
+    position: absolute;
+    top: 0;
+    right:0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+}
