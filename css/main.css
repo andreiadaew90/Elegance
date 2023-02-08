@@ -37,6 +37,13 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.nav__logo{
+    padding: 10px;
+    border-radius: 15px;
+}
+.nav__logo:hover{
+    background-color: #E8E1D9;
+}
 .nav__list{
     list-style-type: none;
     padding: 0;
@@ -44,4 +51,15 @@ body{
 }
 .nav__item:not(:last-child){
     margin-right:30px ;
+}
+.nav__link{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+   
+}
+.nav__link:hover{
+    color: #F72464;
+    background-color: #E8E1D9;
+    border-radius: 15px;
 }
