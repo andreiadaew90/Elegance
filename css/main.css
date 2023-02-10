@@ -233,8 +233,15 @@ body{
 }
 
 /* ПРИЗЫВ К ДЕЙСТВИЮ */
+.call__to__action{
+    margin: 0 auto;
+    max-width: 1400px;
+    background:  linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/rectangle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
 .wrapper__call__to__action{
-    background-color: #000000;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -245,4 +252,11 @@ body{
     line-height: 100%;
     color: #ffffff;
     margin-right: auto;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.call__to__action-new{
+    background:  linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/rectangle__new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
