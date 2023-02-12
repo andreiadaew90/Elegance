@@ -261,45 +261,53 @@ body{
     background-size: cover;
 }
 /* элемент пост */
+.container__post__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button___item-post{
+    padding: 9px 52px 12px;
+}
 .wrapper__product-post{
     margin-bottom: 86px;
 }
-.post__list{
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-.post__item{
-    list-style-type: none;
-    padding: 0;
-    margin-right: 10px;
-}
-.post__item article{
-    width: 570px;
-    display: flex;
-}
-.product__title-post{
-    width: 370px;
-    font-size: 20px;
-    line-height: 27px;
-    margin-bottom: 10px;
-}
-.post__item p{
-    width: 500px;
-    font-size: 14px;
-    line-height: 18px;
-    color: #777777;
-    margin: 0;
-    margin-bottom: 10px;
-}
-.post__item div{
-    padding: 20px 0 20px 30px; 
-}
-.post__item div a{
-    text-decoration: none;
-    color: inherit;
+.post__wrapper{
+    max-width: 570px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.post__wrapper__content{
+    width: 370px;
+}
+.post__wrapper__content h3{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.post__wrapper__content p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 130%;
+    color: #777777;
+}
+.post__wrapper__content a{
+    position: relative;
+    color: inherit;
+    text-decoration: none;
     font-size: 16px;
     line-height: 21px;
+}
+.post__wrapper__content a::after{
+    position: absolute;
+    content: '';
+    background-image: url('../images/chevron-right.svg');
+    top: 0;
+    right: -24px;
+    display:block;
+    width: 24px;
+    height: 24px;
 }
