@@ -273,10 +273,11 @@ body{
     margin-bottom: 86px;
 }
 .post__wrapper{
-    max-width: 570px;
+    width: 570px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .post__wrapper__content{
     width: 370px;
