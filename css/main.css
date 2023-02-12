@@ -234,8 +234,8 @@ body{
 
 /* ПРИЗЫВ К ДЕЙСТВИЮ */
 .call__to__action{
+    width: 1400px;
     margin: 0 auto;
-    max-width: 1400px;
     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/rectangle.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,4 +259,47 @@ body{
     background:  linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/rectangle__new.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* элемент пост */
+.wrapper__product-post{
+    margin-bottom: 86px;
+}
+.post__list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post__item{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 10px;
+}
+.post__item article{
+    width: 570px;
+    display: flex;
+}
+.product__title-post{
+    width: 370px;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.post__item p{
+    width: 500px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.post__item div{
+    padding: 20px 0 20px 30px; 
+}
+.post__item div a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 21px;
 }
